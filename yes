@@ -1,3 +1,7 @@
 ROS 启动 uwb
 roslaunch nlink_parser linktrack.launch
 
+远程连接机载电脑
+ssh -l nvidia 192.168.3.47
+
+
