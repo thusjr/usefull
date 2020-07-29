@@ -6,3 +6,6 @@ ssh -l nvidia 192.168.3.47
 
 远程关机
 sudo poweroff
+
+mavros通信连接测试
+roslaunch mavros px4.launch fcu_url:=”/dev/ttyUSB0:921600”
