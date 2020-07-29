@@ -9,3 +9,5 @@ sudo poweroff
 
 mavros通信连接测试
 roslaunch mavros px4.launch fcu_url:=”/dev/ttyUSB0:921600”
+在我的第一台tx2里使用默认
+roslaunch mavros px4.launch
